@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <id>net.yellowkeycard.bermuda-syndrome</id>
+  <name>Bermuda Syndrome</name>
+  <developer id="net.yellowkeycard.bermuda-syndrome">
+    <name>Grégory Montoir; Bermuda Contributors</name>
+    <url>https://git.yellowkeycard.net/outrider/bermuda/activity/contributors</url>
+  </developer>
+  <summary>A modern cross-platform port of Bermuda Syndrome</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-Proprietary</project_license>
+  <url type="homepage">https://git.yellowkeycard.net/outrider/bermuda</url>
+  <url type="vcs-browser">https://git.yellowkeycard.net/outrider/bermuda</url>
+  <description>
+    <p>This is a re-implementation of the engine used in the game Bermuda Syndrome, developed
+      by Century Interactive (now Reakktor Studios) and published by BMG in 1995.</p>
+    <p>The modern port was created by Grégory "cyxx" Montoir by reverse engineering the original
+      Windows executable and porting it to cross-platform compatible technology such as SDL2.</p>
+    <p>The original data files for either the full or demo version of the game are required.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://cdn.jsdelivr.net/gh/fpiesche/bermuda/main/dist/screenshots/screenshot_cell.png</image>
+      <caption>The start of the game: Breaking out of your cell</caption>
+    </screenshot>
+  </screenshots>
+  <categories>
+    <category>Game</category>
+    <category>ActionGame</category>
+  </categories>
+  <supports>
+    <control>keyboard</control>
+  </supports>
+  <recommends>
+    <control>gamepad</control>
+  </recommends>
+  <requires>
+    <internet>offline-only</internet>
+  </requires>
+  <provides>
+    <binary>bermuda-syndrome</binary>
+  </provides>
+  <keywords>
+    <keyword>retro</keyword>
+    <keyword>cinematic platformer</keyword>
+    <keyword>bermuda syndrome</keyword>
+    <keyword>reakktor</keyword>
+    <keyword>century interactive</keyword>
+  </keywords>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+  </content_rating>
+  <releases>
+    <release version="0.1.7" date="2019-02-13">
+      <description>
+        <ul>
+          <li>added support for game controllers</li>
+          <li>added widescreen mode (16:9)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.6" date="2017-11-23">
+      <description>
+        <ul>
+          <li>added screenshot</li>
+          <li>added original save/load menus</li>
+          <li>added support for non-interactive part of the demo</li>
+          <li>added MIDI playback</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.5" date="2015-07-14">
+      <description>
+        <ul>
+          <li>added romfs support</li>
+          <li>fixed issues with demo data files</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.4" date="2011-02-26">
+      <description>
+        <ul>
+          <li>fixed script errors in english and german versions</li>
+          <li>fixed video overlays</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.6" date="2008-03-24">
+      <description>
+        <ul>
+          <li>added missing opcodes, game is now completable</li>
+          <li>fixed several bugs and issues</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.2" date="2007-08-15">
+      <description>
+        <ul>
+          <li>added support for interactive part of the demo version</li>
+          <li>added support for introduction and ending sequences</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.1" date="2007-08-06">
+      <description>
+        <ul>
+          <li>added fullscreen mode</li>
+          <li>various bug fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.0" date="2007-07-30">
+      <description>
+        <ul>
+          <li>first public release
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
