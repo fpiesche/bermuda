@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Bermuda Syndrome
+Comment=A cinematic platformer
+Icon=net.yellowkeycard.bermuda-syndrome
+Exec=bermuda-syndrome
+Categories=Game;ActionGame
