@@ -4,7 +4,7 @@
 ## About
 
 This program is a re-implementation of the engine used in the game Bermuda
-Syndrome made by Century Interactive (now [Reakktor Studios](http://www.reakktor.com)
+Syndrome made by Century Interactive (now [Reakktor Studios](http://www.reakktor.com))
 and published by BMG in 1995. The original data files for either the full
 or demo version of the game are required.
 
